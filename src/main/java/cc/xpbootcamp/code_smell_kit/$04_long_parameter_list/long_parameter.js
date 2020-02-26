@@ -1,3 +1,4 @@
+// 腐坏点： 参数过长
 function buildGenericResponse(logger, error, { audit, references, innerSystemInfo }) {
   let response;
   if (error) {

@@ -1,3 +1,4 @@
+// 腐坏点： switch 条件判断
 module.exports = (action) => {
   switch (action) {
     case constants.CREATE_INSTRUCTION:
