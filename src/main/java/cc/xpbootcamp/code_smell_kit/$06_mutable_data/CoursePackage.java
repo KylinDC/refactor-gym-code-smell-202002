@@ -15,6 +15,7 @@ public class CoursePackage {
     private int progress;
     private List<Course> courses;
 
+    //腐坏点： 可以同时通过setProgress和calculateProgress给progress赋值
     public void calculateProgress(){
         progress =  courses.stream().mapToInt(Course::getProgress).sum();
     }

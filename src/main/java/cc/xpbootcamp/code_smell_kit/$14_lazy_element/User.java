@@ -17,6 +17,7 @@ public class User {
         return activatedStatus;
     }
 
+    //腐坏点：方法名和实现的代码几乎一样
     public boolean isActivated(){
         return this.activatedStatus == ActivatedStatus.Activated;
     }
